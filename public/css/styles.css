@@ -1,0 +1,275 @@
+
+*{
+    box-sizing: border-box; 
+    margin: 0px;
+    padding:0px; 
+}
+.fa, .far, .fas {
+    padding: 0 2px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+
+}
+h2{
+    font-size: 1rem;
+}
+h3{
+    font-size: 23px;
+}
+
+
+header {
+    position:relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 1%;
+    box-shadow: 0px 5px 5px 0px #66666661
+}
+.topbar-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+
+}
+.logo-busq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+.Busqueda{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-busq img{
+    width: 10rem;
+    padding: 2%;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul{
+    display: flex;
+    list-style: none;
+}
+.main-navbar li{
+    padding: 0.5rem;
+}
+.main-navbar li a{
+    color: #222222;
+    text-decoration:none;
+    display: inline-block;
+    padding: 2px 0;
+    font-size: 1rem;
+}
+.burger-menu{
+    color:white;
+    font-size: 20px;
+    display: block;
+    width:fit-content;
+    padding: 1% 1.5%;
+    background-color:   lightblue;
+    border-radius:20%;
+    margin:auto;
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+main section {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section h3{
+    align-self:flex-start ;
+    padding: 2% 2%;
+    flex-basis: 100%;
+}
+
+main section article{
+    position: relative;
+    width:15rem;
+    height: auto;
+    margin-bottom: 3%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px #666 ;
+    border-radius: 10px;
+}
+.description{ 
+    opacity: 0;
+    transition: all 320ms;
+}
+main section article:hover  .description{
+    opacity: 1;
+    }
+
+main section article img{
+   border-radius: 10px 10px 0px 0px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover ;
+   border-bottom: #0a75df solid 1px;;
+}
+
+main section article i.fas{
+    position: absolute;
+    background-color: white;
+    bottom: 16%;
+    right: 10px;
+    color: #0a75df ;
+    border: #0a75df solid 1px;
+    border-radius: 50%;
+    padding: 2% 1%;
+    transition: all 320ms;
+    
+}
+ i.fas.fa-truck:hover  {
+    transform:rotate(-90deg);
+}
+main section article div{
+    margin-bottom: 2%;
+   
+}
+/*  
+@keyframes cambio{
+    0%{ margin-left: 0;}
+    20%{ margin-left: 0;}
+
+    25%{ margin-left: -100%;}
+    45%{ margin-left: -100%;}
+
+    50%{ margin-left: -200%;}
+    70%{ margin-left: -200%;}
+
+    75%{ margin-left: -300%;}
+    100%{ margin-left: -300%;}
+}
+   */
+.descripcion{
+    display: none;
+}
+
+.icono-footer{
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+footer{
+    text-align: center;
+    background-color: white;
+}
+
+footer article p{
+    font-size: 0.8rem;
+}
+.derechos{
+    font-size: 0.7rem;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-destacados{
+    display: flex;
+    justify-content:space-around ;
+}
+
+
+
+@media (min-width:768px){
+    .topbar-header{
+        flex-direction: row;
+        align-items: center;
+        font-size: 1rem;
+        justify-content: space-between;
+    }
+    .topbar-header h2{
+        text-align: right;
+        font-size: 1rem;
+    }
+    .copy-header{
+        max-width: 300px;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .main-navbar{
+        display:flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        width: 100%;
+    }
+    main section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+
+    main section article{
+        width: 15rem;
+        margin: 2%;
+    }
+    .description{ 
+        opacity: 1;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .divFooter{
+        display: flex;
+    }
+    .derechos{
+        align-self: flex-start;
+        margin-left: 3px;
+    }
+    
+}
+@media (min-width: 1200px){
+    .topbar-header, .main-navbar{
+        max-width: 1200px;
+       
+    }
+    
+    .topbar-header h2, .logo-busq,.main-navbar ul li a{
+        font-size: 1.2rem;
+    }
+    .logo-busq img{
+        width: 12rem;
+    }
+    .copy-header{
+        max-width: none;
+    }
+    .main-navbar li a{
+        font-size: 1.4rem;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px 100px;
+    }
+}
