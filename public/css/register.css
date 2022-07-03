@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+}
+
+.container-logo {
+    margin: 100px;
+}
+
+.logo {
+    width: 200px;
+    height: 35px;
+}
+
+.container-form {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-form .forms{
+    padding: 30px  ;
+}
+
+.container-form .forms .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.forms .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #4070f4;
+    border-radius: 25px;
+}
+
+.forms .input-field {
+    margin-top: 30px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input {
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+}
+
+.input-field img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%)
+}
+
+.forms .checkbox-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.text-term {
+    margin-left: 10px;
+    color: #333;
+}
+
+.checkbox-content input {
+    margin: 0 8px -2px 4px;
+    accent-color: #4070f4;
+}
+
+.forms text {
+    color: #333;
+    font-size: 14px;
+}
+
+.forms a{
+    text-decoration: none;
+}
+
+.forms a:hover {
+    text-decoration: underline;
+}
+
+.forms .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+}

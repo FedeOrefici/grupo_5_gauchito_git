@@ -4,47 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,700;0,900;1,400;1,900&family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/loginTest.css">
     <title>Gauchito Git</title>
 </head>
-<body class="container-fondo-form">
-    <img class="logo-login" src="/images/logo.png" alt="logo"/>
-    <section class="formulario-login">
-            <input class="controles" type="email" name="email" id="email" placeholder="Ingrese su email">
-            <input class="controles" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
-            <button style="--clr:#1e9bff" class="boton" type="submit">Ingresar</button>
-    </section>
-    <footer>
-        <section class="footer-info">
-            <article>
-                <div>
-                    <img src="/images/at-solid.svg" class="icono-footer">
-                    <h3>E-mail</h3>
-                    <p>Mandanos un correo</p>
-                </div>
-            </article>
-            <article>
-                <div>
-                    <img src="/images/phone-solid.svg" class="icono-footer">
-                    <h3>Teléfono</h3>
-                    <p>Comunicate con nuestros representantes</p>
-                </div>
-            </article>
-            <article>
-                <div>
-                    <img src="/images/user-solid.svg" class="icono-footer" >
-                    <h3>Registrate</h3>
-                    <p>Accedé a descuentos especiales</p>
-                </div>
-            </article>
-        </section>
-        <section>
-                <h4>Copyright © 2022 GauchitoGit S.R.L.</h3>
-        </section>
-    </footer>
-</body>
+<body class="container-body">
+    <div class="container-logo"><a href="home.html"></a>
+        <img src="../public/images/logo.png" class="logo">
+    </div>
 
+        <div class="container-form">
+            <div class="forms">
+                <span class="title">Login</span>
+
+                <form action="#">
+                 <div class="input-field">
+                        <input type="text" placeholder="Ingresa tu email" required>
+                        <img src="../public/images/person-circle.svg">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Ingresa tu password" required>
+                        <img src="../public/images/key-fill.svg">
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Recordarme</label>
+                        </div>
+                        <a href="#" class="text">Olvidaste tu contraseña?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Login">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">No estás registrado?</span>
+                    <a href="register.html" class="text signup-text">Registrate ahora</a>
+                </div>
+        </div>
+    </div>
+</body>
 </html>
