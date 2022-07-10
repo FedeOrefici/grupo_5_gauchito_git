@@ -20,7 +20,7 @@ const controller =  {
     },
 
     productsMates: (req, res) => {
-        res.send ('productsMates')
+        res.render ('productsMates')
     }
 }
 
