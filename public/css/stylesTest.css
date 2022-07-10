@@ -19,7 +19,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 25px;
-    /* position: fixed; */
 }
 
 .logo {
@@ -61,6 +60,7 @@ header {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 .container {
@@ -88,40 +88,35 @@ a {
     height: 100%;
     width: 100%;
     border-radius: 2rem;
-    box-shadow: 0 0 5px 2px #32323240;
+    box-shadow: 0 0 5px 2px #29b0ff40;
     position: absolute;
     color: #fff;
     backface-visibility: hidden;
 }
 
 .front{
-    background-image: url(../images/logo.png);
+    background-image: url(../images/iso.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     background-position: center;
-    background-color: #99a3ff;
+    background-color: #99a3ff9c;
 }
 
 .back {
-    background-color: #b0c5ff;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    background: #56CCF2;
-    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  
-    background: linear-gradient(to right, #2F80ED, #56CCF2);
-    background: #007991;  
-
-
-
+    background: #99a3ff;
 }
 
 footer {
-    background-color: #d9d9d9;
+    background-color: #3e4ab8;
     height: 300px;
     width: 100%;
     color: #fff;    
