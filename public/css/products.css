@@ -171,3 +171,48 @@ button:hover {
     background-color: #3855a3;
     transition: 1s;
 }
+
+footer {
+    background-color: #3e4ab8;
+    height: 300px;
+    width: 100%;
+    color: #fff;    
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin: 80px;
+    color: #fff;
+}
+
+.footer-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

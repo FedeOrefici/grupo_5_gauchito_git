@@ -1,23 +1,42 @@
 const express = require("express");
 const app = express();
+const controlador = require('./public/src/controllers/mainController.js');
 
-const path = require("path");
+app.set('view engine', 'ejs');
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log("server working in port 3000");
+//correcion ruta para css
+app.use(express.static('public'));
+
+// //rutas vistas
+// app.get('/', (req,res)=>{
+//   res.render('index');
+// });
+
+// app.get('/', (req,res)=>{
+//   res.render('login');
+// });
+
+// app.get('/', (req,res)=>{
+//   res.render('register');
+// });
+
+// app.get('/', (req,res)=>{
+//   res.render('productsAlfajores');
+// });
+
+// app.get('/', (req,res)=>{
+//   res.render('productsEmpanadas');
+// });
+
+// app.get('/', (req,res)=>{
+//   res.render('productsMates');
+// });
+
+//inicio de server
+app.listen(process.env.PORT || 3000, function(){
+  console.log("servidor corriendo en el puerto 3000")
 });
 
-const publicPath = path.resolve(__dirname, "./public");
-app.use(express.static(publicPath));
 
-app.get("/", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./views/home.html"));
-});
 
-app.get("/login", (req, res) => {
-  res.sendFile(path.resolve("./views/login.html"));
-});
 
-app.get("/register", (req, res) => {
-  res.sendFile(path.resolve("views/register.html"));
-});
