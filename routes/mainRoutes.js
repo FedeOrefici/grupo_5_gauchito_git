@@ -9,7 +9,7 @@ router.get('/views/index.ejs', mainController.index);
 
 router.get('/views/login.ejs', mainController.login);
 
-router.get('/', mainController.register);
+router.get('/views/register.ejs', mainController.register);
 
 router.get('/views/productsAlfajores.ejs', mainController.productsAlfajores);
 
