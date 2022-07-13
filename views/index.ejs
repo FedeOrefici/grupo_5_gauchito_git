@@ -5,18 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/6c2885ab71.js" crossorigin="anonymous"></script>
     <title>Gauchito Git</title>
 </head>
 <body>
-    <header>
-        <nav class="nav">
-            <a href="/views/index.ejs"><img src="/images/logo.png" alt="logo" class="logo"></a>
-            <ul class="menu">
-                <li><a href="login.ejs">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+    <%- include ('./partials/header')%>
     <section class="body-container">
         <a href="/views/productsEmpanadas.ejs">
         <div class="container">
@@ -53,17 +46,8 @@
     </a>
         
     </section>
-
-    <footer>
-        <div class="footer-container">
-            <ul class="socials">
-                <li><a href="#"><img src="/images/facebook.svg" alt="facebook" class="icons"></a></li>
-                <li><a href="#"><img src="/images/whatsapp.svg" alt="whatsapp" class="icons"></a></li>
-                <li><a href="#"><img src="/images/truck.svg" alt="delivery" class="icons"></a></li>
-            </ul>
-        </div>
-    </footer>
     
+    <%- include ('./partials/footer')%>
     
 </body>
 </html>

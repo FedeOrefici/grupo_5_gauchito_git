@@ -134,8 +134,9 @@ footer {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-top: 100px;
+    width: 90%;
 }
 
 .socials li {
@@ -147,16 +148,13 @@ footer {
     color: #fff;
 }
 
-.icons {
-    width: 20px;
-    height: 20px;
-    margin: 80px;
-    color: #fff;
-}
-
 .footer-container p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fa-solid, .fa-brands {
+    font-size: 40px;
 }
 
