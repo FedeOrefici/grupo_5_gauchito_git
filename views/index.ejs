@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/6c2885ab71.js" crossorigin="anonymous"></script>
+    <title>Gauchito Git</title>
+</head>
+<body>
+    <%- include ('./partials/header')%>
+    <section class="body-container">
+        <a href="/views/productsEmpanadas.ejs">
+        <div class="container">
+            <div class="card">
+                    <div class="front"></div>      
+                    <div class="back">
+                        <h1>Empanadas</h1>
+                    </div>
+            </div>
+        </div>
+        </a>
+
+        <a href="/views/productsAlfajores.ejs">
+        <div class="container">
+            <div class="card">
+                <div class="front"></div>
+                    <div class="back">
+                        <h1>Alfajores</h1>
+                    </div>
+            </div>
+        </div>
+    </a>
+
+    <a href="/views/productsMates.ejs">
+        <div class="container">
+            <div class="card">
+                <div class="front"></div>
+                    <div class="back">
+                        <h1>Mates</h1>      
+                    </div>
+            </div>
+        </div>
+    </a>
+        
+    </section>
+    
+    <%- include ('./partials/footer')%>
+    
+</body>
+</html>

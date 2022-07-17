@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Gauchito Git</title>
+</head>
+<body>
+    <div class="container-logo">
+        <a href="/views/index.ejs"><img src="/images/logo.png" class="logo"></a>
+    </div>
+
+        <div class="container-form">
+            <div class="forms">
+                <span class="title">Registrarse</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Ingresa tu nombre" required>
+                        <img src="/images/person-circle.svg">
+                    </div>
+                    <div class="input-field">
+                        <input type="mail" placeholder="Ingresa tu email" required>
+                        <img src="/images/envelope.svg">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" placeholder="Ingresa tu password" required>
+                        <img src="/images/key-fill.svg">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Confirma tu password" required>
+                        <img src="/images/check-circle.svg">
+                    </div>
+
+                    <div class="checkbox-text">
+                        <input type="checkbox" id="logCheck">
+                        <a href="#" class="text-term">Acepto término y condiciones</a>
+                    </div>
+
+                    <a href="login.ejs">
+                    <div class="input-field button">
+                        <input type="button" value="Registrarse">
+                    </div>
+                    </a>
+                </form>
+        </div>
+    </div>
+
+</body>
+</html>
