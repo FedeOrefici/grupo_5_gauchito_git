@@ -177,7 +177,7 @@ footer {
 .container-sides {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .left-side {
@@ -193,14 +193,12 @@ footer {
 
 .rigth-side {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #d4d8fc;
     width: 70%;
     height: 500px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
+    gap: 5px;
 }
 
 .articulos {
@@ -219,7 +217,36 @@ footer {
     width: 100px;
 }
 
-footer {
-    background-color: #3e4ab8;
-    height: 85px;
+.button-modified {
+  width: 120px;
+  height: 30px;
+  background-color: #3e4ab8;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
 }
+
+.button-modified:hover {
+  background-color: #485096;
+}
+
+
+.cuadro-imagen {
+  border: 1px solid grey;
+  width: 75px;
+  height: 75px;
+}
+
+.articulos-admin{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.side-modif-admin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 10px;
+}
+

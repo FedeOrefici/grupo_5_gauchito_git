@@ -17,6 +17,16 @@ router.get("/views/productsEmpanadas.ejs", mainController.productsEmpanadas);
 
 router.get("/views/productsMates.ejs", mainController.productsMates);
 
-router.get("/panelAdministrator.ejs", mainController.panelAdministrator);
+router.get("/views/panelAdministrator.ejs", mainController.panelAdministrator);
+
+router.get("/views/loginAdmin.ejs", mainController.loginAdmin);
+
+router.get("/views/panelAdminEmp.ejs", mainController.panelAdminEmp);
+
+router.get("/views/panelAdminAlf.ejs", mainController.panelAdminAlf);
+
+router.get("/views/panelAdminMat.ejs", mainController.panelAdminMat);
+
+router.get("/views/panelAdminModif.ejs", mainController.panelAdminModif);
 
 module.exports = router;

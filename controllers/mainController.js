@@ -25,6 +25,26 @@ const controller =  {
 
     panelAdministrator: (req, res) => {
         res.render ('panelAdministrator')
+    },
+
+    loginAdmin: (req, res) => {
+        res.render ('loginAdmin')
+    },
+
+    panelAdminEmp: (req, res) => {
+        res.render ('panelAdminEmp')
+    },
+
+    panelAdminAlf: (req, res) => {
+        res.render ('panelAdminAlf')
+    },
+
+    panelAdminMat: (req, res) => {
+        res.render ('panelAdminMat')
+    },
+
+    panelAdminModif: (req, res) => {
+        res.render ('panelAdminModif')
     }
 }
 

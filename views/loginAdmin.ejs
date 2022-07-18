@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Gauchito Git</title>
+</head>
+<body class="container-body">
+    <div class="container-logo"><a href="/views/index.ejs"><img src="/images/logo.png" class="logo"></a>
+    </div>
+
+        <div class="container-form">
+            <div class="forms">
+                <span class="title">Login Admin</span>
+
+                <form action="#">
+                <div class="input-field">
+                        <input type="text" placeholder="Ingresa tu email" required>
+                        <img src="/images/person-circle.svg">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Ingresa tu password" required>
+                        <img src="/images/key-fill.svg">
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Recordarme</label>
+                        </div>
+                        <a href="#" class="text">Olvidaste su contraseña?</a>
+                    </div>
+                    
+                    <a href="">
+                    <div class="input-field button">
+                        <a href="/views/panelAdministrator.ejs"><input type="button" value="Login"></a>                        
+                    </div>
+                    </a>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
