@@ -175,46 +175,46 @@ footer {
 }
 
 .container-sides {
-    display: flex;
-    align-items: center;
-    justify-content: center;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .left-side {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 500px;
-    background-color: #99a3ff;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 500px;
+  background-color: #99a3ff;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
 }
 
 .rigth-side {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d4d8fc;
-    width: 70%;
-    height: 500px;
-    gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d8fc;
+  width: 70%;
+  height: 500px;
+  gap: 5px;
 }
 
 .articulos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .buttons-admin:hover {
-    cursor: pointer;
-    background-color: #485096;
-    color: #fff;
+  cursor: pointer;
+  background-color: #485096;
+  color: #fff;
 }
 .price {
-    width: 100px;
+  width: 100px;
 }
 
 .button-modified {
@@ -230,23 +230,21 @@ footer {
   background-color: #485096;
 }
 
-
 .cuadro-imagen {
   border: 1px solid grey;
   width: 75px;
   height: 75px;
 }
 
-.articulos-admin{
+.articulos-admin {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.side-modif-admin{
+.side-modif-admin {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90%;
   gap: 10px;
 }
-

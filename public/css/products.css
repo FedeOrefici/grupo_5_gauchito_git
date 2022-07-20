@@ -1,222 +1,221 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    background: #4070f4;
+  font-family: "Raleway", sans-serif;
+  background: #4070f4;
 }
 
 header {
-    width: 100%;
+  width: 100%;
 }
 
 .nav {
-    width: 100%;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 .logo {
-    width: 200px;
-    height: 35px;
+  width: 200px;
+  height: 35px;
 }
 
 .menu {
-    display: flex;
+  display: flex;
 }
 
 .menu li {
-    list-style: none;
-    margin: 10px;
+  list-style: none;
+  margin: 10px;
 }
 
 .menu li a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .menu li a:hover {
-    padding: 5px 10px;
-    background: rgba(15, 161, 219, 0.521);
-    color: rgb(255, 255, 255);
-    border-radius: 15px;
-    transition:  all 0.5s ease;
+  padding: 5px 10px;
+  background: rgba(15, 161, 219, 0.521);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  transition: all 0.5s ease;
 }
 
 .container-main-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
 }
 
-.container-main{
-    width: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 50px;
-    padding-top: 100px;
-    margin-top: 20px;
-    margin-left: 15px;
-    gap: 15px 0;
-    flex-wrap: wrap;
-    padding-bottom: 150px;
+.container-main {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-top: 100px;
+  margin-top: 20px;
+  margin-left: 15px;
+  gap: 15px 0;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
 }
 
 .card {
-    flex-direction: column;
-    text-align: center;
-    background-color: #9b9b9b;
-    color: black;
-    height: 350px;
-    width: 300px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.411);
-    border-radius: 10px;
-    margin-left: 20px;
-    border: 1px rgba(255, 255, 255, 0.199) solid;
+  flex-direction: column;
+  text-align: center;
+  background-color: #9b9b9b;
+  color: black;
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.411);
+  border-radius: 10px;
+  margin-left: 20px;
+  border: 1px rgba(255, 255, 255, 0.199) solid;
 }
 
 select {
-    margin-top: 10px;
-    border: none;
-    width: 40px;
-    height: 18px;
+  margin-top: 10px;
+  border: none;
+  width: 40px;
+  height: 18px;
 }
 
-
 button {
-    background-color: #4070f4;
-    border: none;
-    border-radius: 5px;
-    width: 50%;
-    height: 30px;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    margin-top: 20px;
-    border: 1px rgba(255, 255, 255, 0.432) solid;
+  background-color: #4070f4;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  height: 30px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  margin-top: 20px;
+  border: 1px rgba(255, 255, 255, 0.432) solid;
 }
 
 .precios {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 button:hover {
-    background-color: #3855a3;
-    transition: 1s;
+  background-color: #3855a3;
+  transition: 1s;
 }
 
 .card img {
-    height: 197px;
-    position: relative;
-    border-radius: 10px;
+  height: 197px;
+  position: relative;
+  border-radius: 10px;
 }
 
 .imgalf {
-    width: 100%;
+  width: 100%;
 }
 
 .intro h1 {
-    font-size: 18px;
-    padding-top: 8px;
+  font-size: 18px;
+  padding-top: 8px;
 }
 
 .container-carrito {
-    width: 600px;
-    height: 500px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
 }
 
 .title {
-    position: relative;
-    font-size: 27px;
-    font-weight: 600;
-    margin:auto;
-    margin-top: 20px;
+  position: relative;
+  font-size: 27px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .container-carrito .title::before {
-    content: '';
-    position: absolute;
-    top: 30px;
-    left: 8px;
-    height: 3px;
-    width: 30px;
-    background-color: #4070f4;
-    border-radius: 25px;
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 8px;
+  height: 3px;
+  width: 30px;
+  background-color: #4070f4;
+  border-radius: 25px;
 }
 
 .pagar {
-    background-color: #4070f4;
-    border: none;
-    border-radius: 5px;
-    width: 50%;
-    height: 50px;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    margin-top: 10px;
-    border: 1px white solid;
-    margin-bottom: 40px;
-    font-size: 15px;
+  background-color: #4070f4;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  height: 50px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  margin-top: 10px;
+  border: 1px white solid;
+  margin-bottom: 40px;
+  font-size: 15px;
 }
 
 .pagar:hover {
-    background-color: #3855a3;
-    transition: 1s;
+  background-color: #3855a3;
+  transition: 1s;
 }
 
 footer {
-    background-color: #3e4ab8;
-    height: 300px;
-    width: 100%;
-    color: #fff;    
+  background-color: #3e4ab8;
+  height: 300px;
+  width: 100%;
+  color: #fff;
 }
 
 .footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .socials li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
-.socials a{
-    text-decoration: none;
-    color: #fff;
+.socials a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .icons {
-    width: 20px;
-    height: 20px;
-    margin: 80px;
-    color: #fff;
+  width: 20px;
+  height: 20px;
+  margin: 80px;
+  color: #fff;
 }
 
 .footer-container p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
